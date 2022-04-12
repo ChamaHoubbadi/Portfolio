@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</head>
+<body style=" overflow-x: hidden;">
+	<!----hero Section start---->
+
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Portfo<span>lio</span></h2>
+			<ul>
+				<li><a href="#about">A propos</a></li>
+				<li><a href="#projets">Projets/Stage</a></li>
+				<li><a href="#Competences">Competences</a></li>
+				<li>
+					<a href="#veille">Veille</a>
+				</li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<a href="#" class="btn text-white" style="background-color: #f8004e">Contactez-Moi</a>
+		</nav>
+		<br /><br /><br /><br /><br />
+		<div class="text-center">
+			<h4>Bienvenue sur mon portfolio</h4>
+            <br /><br />
+			<label style="font-size:70px" class="text-white">Houbbadi<span>Chaymae</span></label>
+			<br /><br />
+			<h3>Etudiante a L'institut F2I-Vincennes</h3>
+			<br /><br />
+			<div class="newslatter">
+				<button onclick="window.location.href = 'https://www.institut-f2i.fr';"> Le site de F2I </button>
+			</div>
+		</div>
+	</div>
+
+	<!----About section start---->
+	<section id="about" class="about">
+		<div class="main">
+			<img src="main-img.jpg">
+			<div class="about-text">
+				<h2> Qui suis-je ?</h2>
+				<!--<h5>Developer <span>& Designer</span></h5>-->
+				<p>Je m’appelle Houbbadi Chaymae, je suis actuellement en seconde année de BTS SIO option SLAM à l’institut F2I à Vincennes (94).</p>
+				<button onclick="window.location.href = 'HOUBBADI CHAYMAE.pdf';"> Mon CV </button>
+			</div>
+		</div>
+	</section>
+
+	<!-----service section start ghadi twli projets ----------->
+	<div id="projets" class="projets">
+		<div class="title">
+			<h2>Les projets</h2>
+		</div>
+
+		<div class="box">
+			<div class="card text-white bg-dark">
+				<i class="fas fa-bars"></i>
+				<h5>PP1 : SITE M2L</h5>
+				<div class="pra">
+					<p>Site de la M2L : La Maison des Ligues de Lorraine </p>
+
+					<!--<p style="text-align: center;"> -->
+					<a class="button" href="#">Situation</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card text-white bg-dark">
+				<i class="far fa-user"></i>
+				<h5>PP2 : GestionChama</h5>
+				<div class="pra">
+					<p> Application de gestion des clients/materiels </p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Situation</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card text-white bg-dark">
+				<i class="far fa-bell"></i>
+				<h5>Stage</h5>
+				<div class="pra">
+					<p> Stage effectue au Societe FORMADEV </p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Voir</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!----- Competences ---------->
+	<div id="Competences" class="about">
+		<div class="title">
+			<h2>Mes Competences</h2>
+			<div class="box">
+				<div class="card text-white bg-dark">
+					<div class="card-header">Langages de programmation</div>
+					<div class="card-body">
+						<div class="row mt-2">
+							<div class="col-3"><img src="images/C.png" style="width:130%" /></div>
+							<div class="col-3"><img src="images/c++.png" style="width:130%" /></div>
+							<div class="col-3"><img src="images/Ccharp.jpg" style="width:130%" /></div>
+						</div>
+						<div class="row mt-5">
+							<div class="col-2"></div>
+							<div class="col-3"><img src="images/html.png" style="width:130%" /></div>
+							<div class="col-3"><img src="images/css.png" style="width:130%" /></div>
+							<div class="col-1"></div>
+						</div>
+						<div class="row mt-5">
+							<div class="col-5"></div>
+							<div class="col-3"><img src="images/sql.png" style="width:130%" /></div>
+							<div class="col-4"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card text-white bg-dark">
+					<div class="card-header">Outils</div>
+					<div class="card-body">
+						<div class="row mt-2">
+							<div class="col-3"><img src="images/devc++.jpg" style="width:130%" /></div>
+							<div class="col-3"><img src="images/vscode.jpg" style="width:130%" /></div>
+							<div class="col-3"><img src="images/vs.jpg" style="width:130%" /></div>
+						</div>
+
+						<div class="row mt-5">
+							<div class="col-2"></div>
+							<div class="col-3"><img src="images/xamp.png" style="width:130%" /></div>
+							<div class="col-3"><img src="images/sqlserver.jpg" style="width:130%" /></div>
+							
+							<div class="col-1"></div>	
+						</div>
+							
+                        <div class="row mt-5">
+							<div class="col-3"><img src="images/mysql.jpg" style="width:130%" /></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------Veille Start ------>
+	<div id="Veille" class="Veille">
+		<div class="title">
+			<h2>La Veille</h2>
+		</div>
+        <div class="box">
+			<div class="cardok text-white bg-dark">
+				<div class="pra">
+                    <p>Vous trouvez ici la veille :</p>
+					<a class="button" href="#">La veille</a>
+
+				</div>
+			</div>
+		</div>
+		</div>
+
+	<!------footer start--------->
+	<footer id="contact">
+		<p><span>Houbbadi Chaymae</span></p>
+		<p>Si vous avez la moindre des questions ou des conseilles n'hesitez pas de me contactee par mon e-mail :</p>
+
+		<div class="social">
+			<a href="mailto : chamahoubadi@gmail.com?subject=PORTFOLIO link"><i class="fas fa-at" aria-hidden="true"></i></a>
+		</div>
+		<p class="end">CopyRight By Houbbadi Chaymae</p>
+	</footer>
+</body>
+</html>
